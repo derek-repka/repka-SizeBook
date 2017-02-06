@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_create"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation = "vertical" >
+
+    <ListView
+    android:id="@+id/detailView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+
+    <EditText
+    android:id="@+id/name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Name (required)"/>
+
+    <EditText
+    android:id="@+id/date"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Date (yyyy-mm-dd)"
+    android:inputType="date"/>
+
+    <EditText
+    android:id="@+id/neck"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Neck Circumference (inches)"/>
+
+    <EditText
+    android:id="@+id/bust"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Bust Circumference (inches)"/>
+
+    <EditText
+    android:id="@+id/chest"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Chest Circumference (inches)"/>
+
+    <EditText
+    android:id="@+id/waist"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Waist Circumference (inches)"/>
+
+    <EditText
+    android:id="@+id/hip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Hip Circumference (inches)"/>
+
+    <EditText
+    android:id="@+id/inseam"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Inseam Length (inches)"/>
+
+    <EditText
+    android:id="@+id/comment"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Comments"/>
+
+    <Button
+    android:id="@+id/createRecord"
+    android:text="Create Record"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
