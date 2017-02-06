@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">repka-SizeBook</string>
-
-    <string name="name">Name:</string>
-    <string name="date">Date:</string>
-    <string name="neck">Neck:</string>
-    <string name="bust">Bust:</string>
-    <string name="chest">Chest:</string>
-    <string name="waist">Waist:</string>
-    <string name="hip">Hip:</string>
-    <string name="inseam">Inseam:</string>
-    <string name="comment">Comments:</string>
-    <string name="addRecord">Add a Record</string>
 </resources>
